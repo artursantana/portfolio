@@ -9,9 +9,9 @@ export const Feature = () => {
     <div id='feature'>
         <h1>Curriculo</h1>
         <div className='a-container'>
-      <Featurebox image={fimage1} title='Training' color='white'/>
-      <Featurebox image={fimage2} title='Portugal'/>
-      <Featurebox image={fimage3} title='Inspiração'/>
+      <Featurebox image={fimage1} title='Training' description='Tokio New Technology School' color='white'/>
+      <Featurebox image={fimage2} title='Skills' description='React.js - TypeScript - JavaScript - Git - StyleComponents'/>
+      <Featurebox image={fimage3} title='Projects' description='button'/>
         </div>
     </div>
   )

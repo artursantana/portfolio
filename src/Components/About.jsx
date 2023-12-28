@@ -10,7 +10,7 @@ export const About = () => {
         <div className='about-text'>
             <h1>AboutMe</h1>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam distinctio accusantium nisi, adipisci id ratione quidem atque inventore itaque cupiditate nobis, voluptates ex officiis accusamus, delectus ipsum enim aperiam! Dolorem!</p>
-            <button>Fale Comigo</button>
+            <button>Talk to Me</button>
         </div>
     </div>
   )

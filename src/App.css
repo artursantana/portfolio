@@ -232,9 +232,6 @@ nav .menu-btn,
     
 }
 
-.animation-scroll{
-    background-color: white;
-}
 
 .a-box:hover{
     border: 1px solid #FF1414;
@@ -387,6 +384,7 @@ nav .menu-btn,
 }
 .about-image img{
   width: 450px;
+  height: 520px;
 }
 
 @media(max-width:620px){
@@ -597,3 +595,34 @@ nav .menu-btn,
                 height:400px;
             }
         }
+
+
+
+
+
+        /*ANIMATION SCROLL*/
+
+
+        .scrollerAnimation{
+            opacity: 0;
+            transition: all 0.5s;
+            left: -50px;
+        }
+
+        .scrollerAnimationOpacity {
+            opacity: 1;
+            transition: all 0.5s;
+            left: 0px;
+        }
+
+
+
+
+
+
+
+
+
+
+
+        /*ANIMATION SCROLL*/

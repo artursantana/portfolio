@@ -2,7 +2,7 @@ import React from 'react'
 
 export const Header = () => {
   return (
-    <div id='main' className='scrollerAnimation'>
+    <div id='main'>
         <div className='name'>
           <h2>Your Next</h2>
           <h1><span>Web</span> Developer</h1>

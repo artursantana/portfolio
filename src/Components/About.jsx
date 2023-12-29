@@ -3,7 +3,7 @@ import aboutimage from '../images/about.png'
 
 export const About = () => {
   return (
-    <div id='about'>
+    <div id='about' className='scrollerAnimation'>
         <div className='about-image'>
             <img src={aboutimage} alt="" />
         </div>

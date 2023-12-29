@@ -6,8 +6,7 @@ import fimage3 from '../images/3.png'
 
 export const Feature = () => {
   return (
-    <div id='feature'>
-        <h1>Curriculo</h1>
+    <div id='feature' className='scrollerAnimation'>
         <div className='a-container'>
       <Featurebox image={fimage1} title='Training' description='Tokio New Technology School' color='white'/>
       <Featurebox image={fimage2} title='Skills' description='React.js - TypeScript - JavaScript - Git - StyleComponents'/>

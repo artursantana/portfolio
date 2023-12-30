@@ -5,6 +5,7 @@ import { NavBar } from "./Components/NavBar";
 import { Header } from './Components/Header';
 import { Feature } from './Components/Feature';
 import { About } from './Components/About';
+import Projects from './Components/Projects';
 
 function App() {
   const scroller = () => {
@@ -36,6 +37,7 @@ function App() {
       <NavBar />
       <Header />
       <Feature />
+      <Projects />
       <About />
     </div>
   );

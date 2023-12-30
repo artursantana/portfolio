@@ -33,8 +33,9 @@ export const NavBar = () => {
         <ul className='menu'>
             <li> <Link to='main' smooth={true} duration={1000}>Home</Link></li>
             <li> <Link to='about' smooth={true} duration={1000}>About Me</Link></li>
-            <li> <Link to='feature' smooth={true} duration={1000}>My Projects</Link></li>
-            <li> <Link to='#'>Skills</Link></li>
+            <li> <Link to='feature' smooth={true} duration={1000}>Skills</Link></li>
+            <li> <Link to='wrap' smooth={true} duration={1000}>My Projects</Link></li>
+           
             <li className='socialmedia'>
             <a href="#">
                 <FontAwesomeIcon icon={faGithub} size='2xl' color='white' cursor='pointer'/>

@@ -652,7 +652,7 @@ nav .menu-btn,
 
         .wrap img {
             display: flex;
-            width: 80%;
+            width: 60%;
             height: 60vh;
             margin: auto;
             cursor: pointer;
@@ -660,6 +660,21 @@ nav .menu-btn,
             margin-top: 100px;
         }
         .wrap img:hover {
-            width: 82%;
+            width: 61%;
             transition: all 0.5s;
+        }
+        @media (max-width:750px) {
+            .wrap img {
+                display: flex;
+                width: 90%;
+                height: 60vh;
+                margin: auto;
+                cursor: pointer;
+                transition: all 0.5s;
+                margin-top: 100px;
+            }
+            .wrap img:hover {
+                width: 91%;
+                transition: all 0.5s;
+            }
         }
